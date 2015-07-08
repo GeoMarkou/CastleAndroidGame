@@ -1,0 +1,182 @@
+﻿[2015.07.04-21.12.05:947][  0]Log file open, 07/05/15 06:42:05
+[2015.07.04-21.12.05:947][  0]LogInit:Display: Running engine for game: CastleGame
+[2015.07.04-21.12.05:947][  0]LogInit:Display: RandInit(-1211752732) SRandInit(-1211752732).
+[2015.07.04-21.12.05:947][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2015.07.04-21.12.05:947][  0]LogStats: Stats thread started
+[2015.07.04-21.12.05:947][  0]LogInit: Version: 4.8.1-2591939+++depot+UE4-Releases+4.8
+[2015.07.04-21.12.05:947][  0]LogInit: API Version: 2579680
+[2015.07.04-21.12.05:947][  0]LogInit: Compiled (64-bit): Jun 18 2015 11:02:04
+[2015.07.04-21.12.05:947][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2015.07.04-21.12.05:947][  0]LogInit: Build Configuration: Development
+[2015.07.04-21.12.05:947][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.8
+[2015.07.04-21.12.05:947][  0]LogInit: Command line:  
+[2015.07.04-21.12.05:947][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.8/Engine/Binaries/Win64/
+[2015.07.04-21.12.05:947][  0]LogInit: Rocket: 1
+[2015.07.04-21.12.05:961][  0]LogInit: Using libcurl 7.41.0
+[2015.07.04-21.12.05:961][  0]LogInit:  - built for x86_64-pc-win32
+[2015.07.04-21.12.05:961][  0]LogInit:  - supports SSL with WinSSL
+[2015.07.04-21.12.05:961][  0]LogInit:  - other features:
+[2015.07.04-21.12.05:961][  0]LogInit:      CURL_VERSION_SSL
+[2015.07.04-21.12.05:961][  0]LogInit:      CURL_VERSION_IPV6
+[2015.07.04-21.12.05:961][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.07.04-21.12.05:961][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.07.04-21.12.05:961][  0]LogInit:      CURL_VERSION_IDN
+[2015.07.04-21.12.05:961][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.07.04-21.12.05:961][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.07.04-21.12.05:961][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.07.04-21.12.05:961][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.07.04-21.12.05:961][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2015.07.04-21.12.05:973][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.07.04-21.12.05:988][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.07.04-21.12.05:994][  0]LogInit: Object subsystem initialized
+[2015.07.04-21.12.05:995][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
+[2015.07.04-21.12.05:995][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/George/Documents/GitHub/CastleAndroidGame/CastleGame/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.07.04-21.12.05:995][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2015.07.04-21.12.05:995][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/George/Documents/GitHub/CastleAndroidGame/CastleGame/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.07.04-21.12.05:995][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2015.07.04-21.12.05:995][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/George/Documents/GitHub/CastleAndroidGame/CastleGame/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.07.04-21.12.05:996][  0]LogInit: Selected Device Profile: [Windows]
+[2015.07.04-21.12.05:996][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.07.04-21.12.06:005][  0]LogInit: Computer: JORJ
+[2015.07.04-21.12.06:005][  0]LogInit: User: George
+[2015.07.04-21.12.06:005][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.07.04-21.12.06:005][  0]LogInit: High frequency timer resolution =2.728055 MHz
+[2015.07.04-21.12.06:005][  0]LogMemory: Memory total: Physical=15.8GB (16GB approx)
+[2015.07.04-21.12.06:005][  0]LogMemory: Platform Memory Stats for Windows
+[2015.07.04-21.12.06:005][  0]LogMemory: Process Physical Memory: 49.63 MB used, 49.63 MB peak
+[2015.07.04-21.12.06:005][  0]LogMemory: Process Virtual Memory: 22.34 MB used, 22.34 MB peak
+[2015.07.04-21.12.06:005][  0]LogMemory: Physical Memory: 3910.25 MB used, 16199.01 MB total
+[2015.07.04-21.12.06:005][  0]LogMemory: Virtual Memory: 291.91 MB used, 134217728.00 MB total
+[2015.07.04-21.12.06:037][  0]LogTextLocalizationManager: The requested culture ('en_AU') has no localization data; parent culture's ('en') localization data will be used.
+[2015.07.04-21.12.06:228][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
+Localization Resource: (C:/Program Files/Epic Games/4.8/Engine/Content/Localization/Editor/en/Editor.locres) Source String Hash: (-630476809) Localized String: (Import to {0}...)
+Localization Resource: (C:/Program Files/Epic Games/4.8/Engine/Content/Localization/Editor/en/Editor.locres) Source String Hash: (1271782899) Localized String: (Imports an asset from file to this folder.)
+[2015.07.04-21.12.06:669][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 860M     (Feature Level 11_0)
+[2015.07.04-21.12.06:669][  0]LogD3D11RHI: Adapter has 1972MB of dedicated video memory, 0MB of dedicated system memory, and 2048MB of shared system memory, 1 output[s]
+[2015.07.04-21.12.06:674][  0]LogD3D11RHI: Found D3D11 adapter 1: Intel(R) HD Graphics 4600 (Feature Level 11_0)
+[2015.07.04-21.12.06:674][  0]LogD3D11RHI: Adapter has 96MB of dedicated video memory, 0MB of dedicated system memory, and 1696MB of shared system memory, 0 output[s]
+[2015.07.04-21.12.06:675][  0]LogD3D11RHI: Found D3D11 adapter 2: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.07.04-21.12.06:675][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2015.07.04-21.12.06:675][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.07.04-21.12.06:679][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.07.04-21.12.06:688][  0]LogD3D11RHI: Async texture creation enabled
+[2015.07.04-21.12.06:707][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2015.07.04-21.12.07:432][  0]LogTemp:Display: Loaded TP DesktopTargetPlatform
+[2015.07.04-21.12.07:446][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2015.07.04-21.12.07:460][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2015.07.04-21.12.07:472][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2015.07.04-21.12.07:487][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2015.07.04-21.12.07:498][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2015.07.04-21.12.07:510][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2015.07.04-21.12.07:522][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2015.07.04-21.12.07:533][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2015.07.04-21.12.07:544][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2015.07.04-21.12.07:557][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2015.07.04-21.12.07:569][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2015.07.04-21.12.07:615][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2015.07.04-21.12.07:627][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2015.07.04-21.12.07:638][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2015.07.04-21.12.07:653][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2015.07.04-21.12.07:653][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.07.04-21.12.07:843][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.07.04-21.12.07:902][  0]LogDerivedDataCache: Loaded boot cache 0.06s 53MB C:/Users/George/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc.
+[2015.07.04-21.12.07:902][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/George/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc
+[2015.07.04-21.12.07:902][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/George/Documents/GitHub/CastleAndroidGame/CastleGame/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.07.04-21.12.07:902][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.07.04-21.12.07:902][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/George/Documents/GitHub/CastleAndroidGame/CastleGame/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2015.07.04-21.12.07:902][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2015.07.04-21.12.08:055][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.07.04-21.12.08:067][  0]LogDerivedDataCache: Using Local data cache path C:/Users/George/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.07.04-21.12.08:263][  0]LogInit: Selected Device Profile: [Windows]
+[2015.07.04-21.12.08:345][  0]ImportText (ComponentSweepMultiTests): Missing closing parenthesis: (RootShapeAsset="/Engine/BasicShapes/Cube.Cube",ShapeType="TriggerCapsule",HitResult=(Time=0.50,Location=(X=-100.000015,Y=0.0,Z=100.000015),ImpactPoint=(X=-50.0,Y=0.0,Z=50.0),Normal=(X=-1.0,Y=-0.0,Z=0.0),ImpactNormal=(X=0.0,Y=0.0,Z=1.0),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0))
+[2015.07.04-21.12.08:345][  0]ImportText (LineTraceSingleByChannelTests): Missing closing parenthesis: (RootShapeAsset="/Engine/BasicShapes/Cube.Cube",HitResult=(Time=0.50,Location=(X=-100.000015,Y=0.0,Z=100.000015),ImpactPoint=(X=-50.0,Y=0.0,Z=50.0),Normal=(X=-1.0,Y=-0.0,Z=0.0),ImpactNormal=(X=0.0,Y=0.0,Z=1.0),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0))
+[2015.07.04-21.12.08:370][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.07.04-21.12.08:370][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.07.04-21.12.08:700][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.07.04-21.12.09:499][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.07.04-21.12.09:834][  0]SourceControl: Info Source control is disabled
+[2015.07.04-21.12.09:842][  0]SourceControl: Info Source control is disabled
+[2015.07.04-21.12.09:854][  0]SourceControl: Info Source control is disabled
+[2015.07.04-21.12.09:865][  0]SourceControl: Info Source control is disabled
+[2015.07.04-21.12.10:040][  0]LogObj: 26273 objects as part of root set at end of initial load.
+[2015.07.04-21.12.10:040][  0]LogUObjectAllocator: 5409248 out of 0 bytes used by permanent object pool.
+[2015.07.04-21.12.10:101][  0]LogEngine: Initializing Engine...
+[2015.07.04-21.12.10:102][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.6.0.0
+[2015.07.04-21.12.10:107][  0]LogHMD:Warning: SteamVR failed to initialize.  Error: 108
+[2015.07.04-21.12.10:227][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.07.04-21.12.10:230][  0]LogInit: XAudio2 using 'Speaker (VIA HD Audio(Win8.1))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.07.04-21.12.10:234][  0]LogInit: FAudioDevice initialized.
+[2015.07.04-21.12.10:259][  0]LogDerivedDataCache: Saved boot cache 0.02s 53MB C:/Users/George/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc.
+[2015.07.04-21.12.10:263][  0]LogInit: Texture streaming: Disabled
+[2015.07.04-21.12.10:283][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.07.04-21.12.10:283][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.8.1-2591939+++depot+UE4-Releases+4.8
+[2015.07.04-21.12.10:283][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId c51ee06b40dc2ae701026b805198b797|68eb77fb08074143b8a75907aa684848|eebf13c9-4708-4e0c-8123-a6ff0dacb8e0
+[2015.07.04-21.12.10:283][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2015.07.04-21.12.10:306][  0]LogInit: Transaction tracking system initialized
+[2015.07.04-21.12.10:421][  0]BlueprintLog: New page: Editor Load
+[2015.07.04-21.12.10:453][  0]LogAssetRegistry: FAssetRegistry took 0.0109 seconds to start up
+[2015.07.04-21.12.10:453][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.07.04-21.12.10:993][  0]LogConsoleManager:Warning: Console variable 'r.VSync' wasn't set ('GameSetting' has a lower priority than 'SystemSettingsIni')
+[2015.07.04-21.12.10:993][  0]LogConsoleResponse:Display: 
+[2015.07.04-21.12.11:098][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.07.04-21.12.11:300][  0]SourceControl: Info Source control is disabled
+[2015.07.04-21.12.11:300][  0]Cmd: MAP LOAD FILE="../../../../../../Users/George/Documents/GitHub/CastleAndroidGame/CastleGame/Content/Levels/LevelOne/LevelOne.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.07.04-21.12.11:300][  0]LightingResults: New page: Lighting Build
+[2015.07.04-21.12.11:316][  0]MapCheck: New page: Map Check
+[2015.07.04-21.12.11:316][  0]LightingResults: New page: Lighting Build
+[2015.07.04-21.12.11:328][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A9787A6F20
+[2015.07.04-21.12.12:313][  0]LogAIModule: Creating AISystem for world LevelOne
+[2015.07.04-21.12.12:321][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.07.04-21.12.12:321][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.07.04-21.12.12:375][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 53.533ms to complete.
+[2015.07.04-21.12.12:375][  0]LogFileHelpers: Loading map 'LevelOne' took 1.075
+[2015.07.04-21.12.12:494][  0]LogCollectionManager: Loaded 0 collections in 0.003241 seconds
+[2015.07.04-21.12.12:505][  0]LogContentBrowser: Native class hierarchy populated in 0.0112 seconds. Added 1792 classes and 301 folders.
+[2015.07.04-21.12.12:551][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2015.07.04-21.12.12:585][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2015.07.04-21.12.12:599][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2015.07.04-21.12.12:653][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.07.04-21.12.12:658][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.07.04-21.12.12:682][  0]LogLoad: Full Startup: 7.98 seconds (BP compile: 0.50 seconds)
+[2015.07.04-21.12.12:699][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2015.07.04-21.12.12:762][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.07.04-21.12.12:814][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2015.07.04-21.12.12:992][  0]LogRenderer: Reallocating scene render targets to support 1208x576 (Frame:2).
+[2015.07.04-21.12.13:261][  6]LogAssetRegistry: Asset discovery search completed in 2.8192 seconds
+[2015.07.04-21.12.22:949][567]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.07.04-21.12.22:998][567]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Enums/RenderToTexture_Enum.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.07.04-21.12.24:030][567]LogActor:Warning: GameNetworkManager /Engine/Transient.World_3:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.04-21.12.27:660][776]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.07.04-21.12.27:667][776]LogPlayLevel: [PIE] Compiling LevelOne before PIE...
+[2015.07.04-21.12.27:849][776]LogPlayLevel: PIE:  Blueprint regeneration took 189 ms (1 blueprints)
+[2015.07.04-21.12.27:851][776]PIE: New page: PIE session: LevelOne (5 Jul 2015 4:12:27 pm)
+[2015.07.04-21.12.27:902][776]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/Levels/Vars.Vars_C'
+[2015.07.04-21.12.27:902][776]LogPlayLevel: Creating play world package: /Game/Levels/LevelOne/UEDPIE_0_LevelOne
+[2015.07.04-21.12.27:906][776]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004011s)
+[2015.07.04-21.12.27:906][776]LogAIModule: Creating AISystem for world LevelOne
+[2015.07.04-21.12.27:907][776]LogPlayLevel: PIE: World Init took: (0.001141s)
+[2015.07.04-21.12.27:907][776]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/LevelOne/LevelOne.LevelOne to /Game/Levels/LevelOne/UEDPIE_0_LevelOne.LevelOne (0.005317s)
+[2015.07.04-21.12.27:936][776]LogInit: XAudio2 using 'Speaker (VIA HD Audio(Win8.1))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.07.04-21.12.27:940][776]LogInit: FAudioDevice initialized.
+[2015.07.04-21.12.28:008][776]LogWorld: Game class is 'Survival_C'
+[2015.07.04-21.12.28:013][776]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.07.04-21.12.28:013][776]LogWorld: Bringing World /Game/Levels/LevelOne/UEDPIE_0_LevelOne.LevelOne up for play (max tick rate 60) at 2015.07.05-06.42.28
+[2015.07.04-21.12.28:013][776]LogActor:Warning: GameSession /Game/Levels/LevelOne/UEDPIE_0_LevelOne.LevelOne:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.04-21.12.28:014][776]LogActor:Warning: GameNetworkManager /Game/Levels/LevelOne/UEDPIE_0_LevelOne.LevelOne:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.04-21.12.28:015][776]LogWorld: Bringing up level for play took: 0.004035
+[2015.07.04-21.12.28:044][776]LogScript:Warning: Accessed None 'CallFunc_GetGlobals_Get'
+	Survival_C /Game/Levels/LevelOne/UEDPIE_0_LevelOne.LevelOne:PersistentLevel.Survival_C_0
+	Function /Game/Game/AbstractGameMode.AbstractGameMode_C:ExecuteUbergraph_AbstractGameMode:0073
+[2015.07.04-21.12.28:044][776]PIE:Error: Error Accessed None 'CallFunc_GetGlobals_Get' from node SetTimer in graph 'EventGraph' in blueprint AbstractGameMode
+[2015.07.04-21.12.28:046][776]PIE: Info Play in editor start time for /Game/Levels/LevelOne/UEDPIE_0_LevelOne 0.838
+[2015.07.04-21.12.28:142][776]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A909D51EE0
+[2015.07.04-21.12.28:194][777]LoadErrors:Error: Error Failed import for Blueprint /Game/Game/Modes/OurInstance.OurInstance
+[2015.07.04-21.12.28:194][777]LoadErrors:Error: Error Failed import for BlueprintGeneratedClass /Game/Game/Modes/OurInstance.OurInstance_C
+[2015.07.04-21.12.28:194][777]LoadErrors:Error: Error Failed import for OurInstance_C /Game/Game/Modes/OurInstance.Default__OurInstance_C
+[2015.07.04-21.12.28:194][777]LoadErrors:Error: Error Failed import for Blueprint /Game/Game/OurInstance.OurInstance [redirection] in /Game/Levels/Vars
+[2015.07.04-21.12.28:194][777]LoadErrors:Error: Error Failed import for BlueprintGeneratedClass /Game/Game/OurInstance.OurInstance_C [redirection] in /Game/Levels/Vars
+[2015.07.04-21.12.28:194][777]LoadErrors:Error: Error Failed import for OurInstance_C /Game/Game/OurInstance.Default__OurInstance_C [redirection] in /Game/Levels/Vars
+[2015.07.04-21.14.18:342][188]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.07.04-21.14.18:350][188]LogPlayLevel: [PIE] Compiling LevelOne before PIE...
+[2015.07.04-21.14.18:418][188]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A96CD13380
+[2015.07.04-21.14.18:429][188]LogPlayLevel: PIE:  Blueprint regen
